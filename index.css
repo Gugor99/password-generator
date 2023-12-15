@@ -13,8 +13,8 @@ body {
 
 .container2{
     display: flex;
+    flex-wrap: wrap;
     Width:445px;
-    Height:185px;
     border-top: 1px solid #2F3E53;
 }
 
@@ -50,7 +50,7 @@ p{
     color: #4ADF86;
     padding: 10px 0px 8px 0px;
     text-align: center;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     width: 211px;
     height: 23px;
     background: #273549;
@@ -58,5 +58,8 @@ p{
 }
 
 #input-one{
+    margin-right: auto;
+}
+#input-three{
     margin-right: auto;
 }
